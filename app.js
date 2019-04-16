@@ -51,7 +51,7 @@ app.get('/posts/:title', (req, res) => {
     var postTitle = _.lowerCase(post.title);
 
     if (postTitle === title) {
-      res.render('post', {title: post.title, body: post.content});
+      res.render('post', {title: post.title, body: post.content, link: 'post/' + posts.title});
     }
   });
 });
