@@ -6,7 +6,7 @@ const _ = require('lodash');
 
 let posts = [];
 
-const homeStartingContent = "Welcome to the home page of my blog. Click compose to start adding to the blog.";
+const homeStartingContent = "Welcome to my Blog!";
 const aboutContent = "";
 const contactContent = "";
 
